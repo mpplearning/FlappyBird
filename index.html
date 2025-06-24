@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flappy Bird Career Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Flappy Bird - Career Edition</h1>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="360" height="640"></canvas>
+    <div id="scoreDisplay">คะแนน: 0</div>
+    <div id="gameOver" class="hidden">
+      <p>เกมโอเวอร์!</p>
+      <p id="finalScore">คะแนนสุดท้าย: 0</p>
+      <input type="text" id="playerName" placeholder="กรอกชื่อของคุณ" />
+      <button onclick="restartGame()">เล่นใหม่</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

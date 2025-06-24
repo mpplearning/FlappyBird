@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #cceeff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #006699;
+}
+
+#gameContainer {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 2px solid #0099cc;
+  background-color: #a0e6ff;
+}
+
+canvas {
+  background-color: #a0e6ff;
+}
+
+#scoreDisplay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  color: #003344;
+  font-weight: bold;
+}
+
+#gameOver {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 100%;
+  color: #003344;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
